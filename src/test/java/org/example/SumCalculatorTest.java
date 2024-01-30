@@ -35,15 +35,6 @@ class SumCalculatorTest {
     @Test
     void testThatSumTestIsNotCorrect() throws Exception {
         assertThrows(IllegalArgumentException.class, () -> sumCalculator.sum(0));
-//        Map<Integer, Integer> testVariant = new LinkedHashMap<>();
-//        testVariant.put(0,0);
-//
-//        testVariant.forEach((value, expectedSum) -> {
-//            assertEquals(expectedSum
-//                    ,sumCalculator.sum(value)
-//                    ,String.format("Error in %s value: %d, expected: %d", this.getClass().getName(), value, expectedSum)
-//            );
-//        });
     }
 
 }
